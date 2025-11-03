@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Variables exercise</title>
+    
+</head>
+<body>
+    <script>
+        const name = `Rawfun`;
+        console.log(name); //5a
+        console.log(`My name is ${name}`);  //5b
+
+        var qty = 0;
+        const coffeePrice = 5;
+        console.log(`coffee price = $${coffeePrice}`);
+        const bagelPrice = 3;
+        console.log(`bagel  price = $${bagelPrice}`);
+        const soupPrice= 9;
+        console.log(`soup price = $${soupPrice}`);
+
+        var totalPrice = coffeePrice*1+bagelPrice*2+soupPrice*1;
+        console.log(`total price = $${totalPrice}`);//5c
+
+        var costOfFood =totalPrice;
+        console.log(`cost of food w/o tax= $${costOfFood}`);//5d
+        const taxRatio=0.1;
+        const tax =costOfFood*taxRatio;
+        
+        console.log(` Tax = ${tax}`);//5e
+        console.log(`Tax (10%):$${tax}`);
+        var totalWithTax = costOfFood +tax;
+        console.log(`total price with tax = $${totalWithTax}`);
+        //5g
+
+
+
+
+    </script>
+</body>
+</html>

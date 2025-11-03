@@ -25,9 +25,41 @@
         ">+3</button>
 
         <button onclick="
+        cartQuantity+=4;
+        console.log(`Cart quantity is ${cartQuantity}`);">
+        +4
+        </button>   <!--5h-->
+
+        <button onclick="
+        cartQuantity+=5
+        console.log(`Cart quantity is ${cartQuantity}`);">
+        +5
+        </button> <!--5h-->
+
+        <button onclick="
         cartQuantity = 0;
         console.log(`Cart quantity is ${cartQuantity}`);
         ">Reset Cart</button>
+
+        <button onclick="cartQuantity--;
+        console.log(`Cart quantity is ${cartQuantity}`);">
+        Remove 1 item
+        </button><!--5i,5k-->
+
+        <button onclick="
+        cartQuantity-=-2;
+        console.log(`Cart quantity is ${cartQuantity}`);
+        ">
+        -2
+        </button>
+        <!--5j,5k-->
+        <button onclick="
+        cartQuantity-=-3;
+        console.log(`Cart quantity is ${cartQuantity}`);
+        ">
+        -2
+        </button>
+        <!--5j,5k-->
         <script>
             let cartQuantity = 0;
 
